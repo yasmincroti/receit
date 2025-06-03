@@ -133,14 +133,14 @@ td {
     line-height: 150%;
 }
 
-tr + tr th
+tr + tr th,
 tr + tr td {
-    padding-bottom: 12px;
+    padding-block: 12px;
 }
 
 tr:nth-of-type(1) th,
 tr:nth-of-type(1) td {
-    padding-bottom: 12px;
+    padding-block: 12px;
 }
 
 tr:nth-of-type(4) th,
